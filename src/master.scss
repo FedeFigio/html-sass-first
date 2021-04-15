@@ -1,11 +1,26 @@
-h1 {
-    color: red;
+$primary: blue;
+$secondary: red;
+$tertiary:green;
+.text-blue {
+    color: $primary;
 }
 
-h2 {
-    color: red;
+.text-red {
+    color: $secondary;
 }
 
-h3 {
-    color: blue;
+.text-green {
+    color: $tertiary;
+}
+
+.bg-green {
+    background-color: $tertiary;
+}
+
+.bg-red {
+    background-color: $secondary;
+}
+
+.bg-blue {
+    background-color: $primary;
 }
